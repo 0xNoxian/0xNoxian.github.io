@@ -13,7 +13,7 @@ DoS vulnerabilities are quite common in GraphQL, which is why it’s important t
 - Directive Overloading
 - Array-Based Query Batching
 
-(* means you can also use it for brute-forcing — thought it might be useful)
+(* means you can also use it for brute-forcing, thought it might be useful)
 ## Circular Queries
 Recursive queries occur when two nodes in a GraphQL schema are bidirectionally referenced. Recursive queries can be used by a client to make the server run queries in "circles," effectively denying service that is being used.
 
