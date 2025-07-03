@@ -1,7 +1,7 @@
 # Introduction
 Denial of Service might seem to be a less impactful attack type than others, but this is often not the case. A successful DoS attack can cause a company to lose millions of money and/or trust from their customers, and lead to reputation loss.
 These vulnerabilities usually don't expose Personally Identifiable Information (PII), allow privilege escalation, or compromise user accounts.
-In order to prove concept, you need to deny service to a customer, which is nasty—this is why most bug bounty programs exclude this type of vulnerability, resulting in most hunters not even testing for it since they don't care.
+In order to prove concept, you need to deny service to a customer, which is nasty, this is why most bug bounty programs exclude this type of vulnerability, resulting in most hunters not even testing for it since they don't care.
 To exploit DoS, you don’t necessarily need user input; this vulnerability is more based in architecture and not necessarily implementation, which is why some developers might overlook it.
 
 # Denial of Service in GraphQL
